@@ -23,3 +23,11 @@ Node server.js
 npm start
 npm run seed
 ```
+## Features
+
+```md
+JavaScript
+ES6+
+Node.js
+MySQL
+```
