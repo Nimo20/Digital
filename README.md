@@ -8,3 +8,12 @@ The application is an e-commerce platform designed to facilitate the buying and 
 * [Usage](#Usage)
 * [Features](#Features)
 * [Demo](#Demo)
+
+## Installation
+
+```md
+npm i inquirer
+npm i mysql2 
+npm i sequelize
+npm i dotenv
+```
