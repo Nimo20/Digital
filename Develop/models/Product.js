@@ -14,10 +14,6 @@ Product.init(
             primaryKey: true,
             autoIncrement: true
         },
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false
-        },
         price: {
             type: DataTypes.DECIMAL(10, 2),
             allowNull: false
@@ -27,11 +23,8 @@ Product.init(
             allowNull: true
         },
         product_name: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'product',
-                key: 'id'
-            }
+            type: DataTypes.STRING, // Corrected to be a string
+            allowNull: false
         }
     },
     {
@@ -39,7 +32,7 @@ Product.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'product',
+        modelName: 'product'
     }
 );
 

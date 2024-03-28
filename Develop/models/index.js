@@ -12,11 +12,7 @@ Product.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        // Add other columns as needed
+
     },
     {
         sequelize,
@@ -35,11 +31,8 @@ Category.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        // Add other columns as needed
+
+
     },
     {
         sequelize,
@@ -58,11 +51,7 @@ Tag.init(
             primaryKey: true,
             autoIncrement: true,
         },
-        name: {
-            type: DataTypes.STRING,
-            allowNull: false,
-        },
-        // Add other columns as needed
+
     },
     {
         sequelize,
