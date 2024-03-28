@@ -17,3 +17,9 @@ npm i mysql2
 npm i sequelize
 npm i dotenv
 ```
+## Usage
+```md
+Node server.js
+npm start
+npm run seed
+```
