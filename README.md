@@ -33,4 +33,11 @@ MySQL
 ```
 ## Demo
 
+The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
+
+![alt text](Develop/images/img.png)
+
+![alt text](Develop/images/img2.png)
+
+![alt text](Develop/images/img3.png)
 Do you want to learn more about this program?[Please click here for a video demo]
