@@ -23,7 +23,7 @@ Product.init(
             allowNull: true
         },
         product_name: {
-            type: DataTypes.STRING, // Corrected to be a string
+            type: DataTypes.STRING,
             allowNull: false
         }
     },
