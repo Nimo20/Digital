@@ -2,24 +2,19 @@ const { Category } = require('../models');
 
 const categoryData = [
     {
-        name: 'Shirts',
-        description: 'Clothing items for upper body'
+        category_name: 'Shirts',
     },
     {
-        name: 'Shorts',
-        description: 'Clothing items for lower body'
+        category_name: 'Shorts',
     },
     {
-        name: 'Music',
-        description: 'Various music items'
+        category_name: 'Music',
     },
     {
-        name: 'Hats',
-        description: 'Headwear accessories'
+        category_name: 'Hats',
     },
     {
-        name: 'Shoes',
-        description: 'Footwear items'
+        category_name: 'Shoes',
     },
 ];
 

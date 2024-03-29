@@ -6,23 +6,15 @@ class Category extends Model { }
 
 Category.init(
     {
-        // Define columns for the Category model
         id: {
             type: DataTypes.INTEGER,
+            allowNull: false,
             primaryKey: true,
             autoIncrement: true
         },
-
-        description: {
-            type: DataTypes.TEXT,
-            allowNull: true
-        },
-        category_id: {
-            type: DataTypes.INTEGER,
-            references: {
-                model: 'category',
-                key: 'id'
-            }
+        category_name: {
+            type: DataTypes.STRING,
+            allowNull: false
         }
     },
     {
@@ -31,7 +23,7 @@ Category.init(
         freezeTableName: true,
         underscored: true,
         modelName: 'category',
-    },
+    }
 );
 
 module.exports = Category;
